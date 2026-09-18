@@ -238,7 +238,7 @@ EOF
   # Create systemd service (manual start)
   cat > "$SERVICE_FILE" <<ENDSERVICE
 [Unit]
-Description=Workspace Proxmox Backend API
+Description=Tracebaie Proxmox Backend API
 After=network.target docker.service
 Wants=network-online.target
 Requires=docker.service
